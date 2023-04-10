@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="382dp"
+        android:layout_height="142dp"
+        android:layout_marginEnd="12dp"
+
+        android:backgroundTint="#393737"
+        app:cardCornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ripple1">
+
+
+            <TextView
+                android:id="@+id/txt12"
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="154dp"
+                android:layout_marginBottom="79dp"
+                android:fontFamily="@font/aclonica"
+                android:text="DAY 1"
+                android:textAlignment="viewStart"
+                android:textColor="#AEF7F5F8"
+                android:textSize="30sp" />
+
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="251dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="92dp"
+                android:layout_marginEnd="-16dp"
+                android:fontFamily="@font/aclonica"
+                android:text="FULL BODY"
+                android:textAlignment="viewStart"
+                android:textColor="#F8F5F5"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="137dp"
+                android:layout_height="139dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="237dp"
+                android:layout_marginBottom="0dp"
+                android:scaleType="fitCenter"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/edgar1" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
